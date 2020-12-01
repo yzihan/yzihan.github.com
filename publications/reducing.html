@@ -1,0 +1,219 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="icon" href="/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="keywords" content="yan, zihan, zju, zhejiang university"><link rel="apple-touch-icon" href="/logo192.png"><link rel="manifest" href="/manifest.json"><title>Reducing Cognitive Loads in Parcel Scanning with Eye Tracking-based Augmented Reality Headset</title><link href="/static/css/main.6dea0f05.chunk.css" rel="stylesheet"><style data-jss="" data-meta="Unthemed">
+body {
+  min-width: 300px;
+}
+a {
+  color: inherit;
+}
+.c021 {
+  margin: 10px;
+  display: inline-block;
+  font-size: 0.6em;
+  font-style: normal;
+  font-weight: normal;
+}
+.c021:before {
+  content: "(";
+  display: inline;
+}
+.c021:after {
+  content: ")";
+  display: inline;
+}
+@keyframes c022 {
+  from {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  to {
+    background-position: 0% 50%;
+  }
+}
+.c023 {
+  color: white;
+  padding: 40px;
+  animation: c022 15s ease infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+}
+.c023 h1, .c023 p {
+  margin: 0;
+  padding: 0;
+}
+.c025 {
+  transition: 0.2s;
+}
+.c025 ul {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  flex-flow: row wrap;
+  list-style-type: none;
+}
+.c025 li {
+  display: inline-block;
+}
+.c025:not(.c026) {
+  margin: 20px 0 -40px -20px;
+  opacity: 1;
+  background: transparent;
+}
+.c024.c025:not(.c026) {
+  opacity: 0;
+}
+.c026 {
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  z-index: 99999;
+  position: fixed;
+  background: #000000;
+}
+.c024.c026 {
+  opacity: 1;
+}
+.c027 {
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 20px;
+  background: transparent;
+  transition: 0.1s;
+}
+.c027:hover {
+  background: rgba(204,204,204,0.5);
+}
+.c029 {
+  color: white;
+  display: flex;
+  padding: 40px;
+  position: relative;
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+  justify-content: space-between;
+}
+.c029>div {
+  display: block;
+}
+.c029 h3, .c029 p {
+  margin-top: 0;
+}
+.c0210 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  overflow: hidden;
+  position: absolute;
+  pointer-events: none;
+}
+.c0210 li {
+  width: 40px;
+  bottom: -160px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  animation: c0211 25s infinite;
+  list-style: none;
+  background-color: rgba(255,255,255,0.15);
+  transition-timing-function: linear;
+}
+.c0210 li:nth-child(1) {
+  left: 10%;
+}
+.c0210 li:nth-child(2) {
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 2s;
+  animation-duration: 17s;
+}
+.c0210 li:nth-child(3) {
+  left: 25%;
+  animation-delay: 4s;
+}
+.c0210 li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255,255,255,0.25);
+  animation-duration: 22s;
+}
+.c0210 li:nth-child(5) {
+  left: 70%;
+}
+.c0210 li:nth-child(6) {
+  left: 80%;
+  width: 120px;
+  height: 120px;
+  animation-delay: 3s;
+  background-color: rgba(255,255,255,0.20);
+}
+.c0210 li:nth-child(7) {
+  left: 32%;
+  width: 160px;
+  height: 160px;
+  animation-delay: 7s;
+}
+.c0210 li:nth-child(8) {
+  left: 55%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 15s;
+  animation-duration: 40s;
+}
+.c0210 li:nth-child(9) {
+  left: 25%;
+  width: 10px;
+  height: 10px;
+  animation-delay: 2s;
+  background-color: rgba(255,255,255,0.30);
+  animation-duration: 40s;
+}
+.c0210 li:nth-child(10) {
+  left: 90%;
+  width: 160px;
+  height: 160px;
+  animation-delay: 11s;
+}
+@keyframes c0211 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-700px) rotate(600deg);
+  }
+}
+.c0212 {
+  position: relative;
+  transition: 0.3s;
+}
+.c0213 {
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  position: absolute;
+}
+.c0214 {
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  position: absolute;
+}
+</style><style data-jss="" data-meta="Unthemed">
+.c0215 {
+  padding: 20px;
+  min-height: 30vh;
+  transition: 0.3s;
+}
+.c0216 {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+</style><link rel="prefetch" href="/static/media/loading.ccdf9915.gif" data-react-helmet="true"><link rel="prefetch" href="/static/media/placeholder.19e90386.gif" data-react-helmet="true"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div class="c028"><header class="c023"><h1>Zihan Yan </h1><p>Collage of Computer Science</p><nav class="c025 "><ul><li><a class="c027" href="/">Home</a></li><li><a class="c027" href="/experience.html">Experience</a></li><li><a class="c027" href="/publications/">Publication</a></li><li><a class="c027" href="/designs/">Design</a></li></ul></nav><nav class="c025 c026 "><ul><li><a class="c027" href="/">Home</a></li><li><a class="c027" href="/experience.html">Experience</a></li><li><a class="c027" href="/publications/">Publication</a></li><li><a class="c027" href="/designs/">Design</a></li></ul></nav></header><main class="c0212"><div class="c0215 "><div class="c0216"><a href="/publications/">Show All Publications</a><h3>Reducing Cognitive Loads in Parcel Scanning with Eye Tracking-based Augmented Reality Headset</h3><p>Zihan Yan, Yufei Wu, Yiyang Li, Yifei Shan, Preben Hansen, Xiangdong Li</p><img style="max-width:100%" src="/static/media/reducing2.eb43435f.png" alt="reducing2"><p>Parcel scanning in warehouse is cognitively demanding as it involves processes e.g. barcode seeking, result confirming, and parcel relocating that have different cognitive requirements. It may deteriorate human workers’ productivity and well-being of working. Despite many ergonomic solutions to parcel scanning, worker’s cognition loads are less concerned. To reduce cognitive loads in parcel scanning, we present the eye tracking-based augmented reality headset which integrates foveated vision detection to leverage spontaneous barcode scanning and result confirmation. We evaluated the headset’s usability and its influence on workers’ cognition performance with two groups of participants using the headset and PDA, respectively. The result shows that the headset significantly reduced participants’ overall cognitive loads in barcode seeking and result confirmation, it maintained higher scanning efficiency and lower cognitive loads than the PDA across all the tasks. The headset outperformed the PDA with respect to overall usability and ease of use.</p><a href="/publications/">Show All Publications</a></div></div></main></div><footer class="c029"><div><h3>Contact Information</h3><p><a href="mailto:zihanyan@zju.edu.cn">zihanyan@zju.edu.cn</a></p></div><div><p>© 2020 Zihan</p></div><ul class="c0210" style="clear:both"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></footer></div><script>!function(e){function t(t){for(var n,i,a=t[0],c=t[1],l=t[2],s=0,p=[];s<a.length;s++)i=a[s],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&p.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(t);p.length;)p.shift()();return u.push.apply(u,l||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,a=1;a<r.length;a++){var c=r[a];0!==o[c]&&(n=!1)}n&&(u.splice(t--,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.e=function(e){var t=[],r=o[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=o[e]=[t,n]}));t.push(r[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"6a3373e9"}[e]+".chunk.js"}(e);var c=new Error;u=function(t){a.onerror=a.onload=null,clearTimeout(l);var r=o[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),u=t&&t.target&&t.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,r[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(t)},i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/",i.oe=function(e){throw console.error(e),e};var a=this["webpackJsonpzihan-site"]=this["webpackJsonpzihan-site"]||[],c=a.push.bind(a);a.push=t,a=a.slice();for(var l=0;l<a.length;l++)t(a[l]);var f=c;r()}([])</script><script src="/static/js/2.d66125d5.chunk.js"></script><script src="/static/js/main.2567f96b.chunk.js"></script></body></html>
