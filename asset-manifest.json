@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.6b607004.chunk.js",
-    "main.js.map": "/static/js/main.6b607004.chunk.js.map",
+    "main.js": "/static/js/main.a5e312a2.chunk.js",
+    "main.js.map": "/static/js/main.a5e312a2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.763b44ac.js",
     "runtime-main.js.map": "/static/js/runtime-main.763b44ac.js.map",
-    "static/js/2.c357a442.chunk.js": "/static/js/2.c357a442.chunk.js",
-    "static/js/2.c357a442.chunk.js.map": "/static/js/2.c357a442.chunk.js.map",
+    "static/js/2.04528638.chunk.js": "/static/js/2.04528638.chunk.js",
+    "static/js/2.04528638.chunk.js.map": "/static/js/2.04528638.chunk.js.map",
     "static/js/3.6a3373e9.chunk.js": "/static/js/3.6a3373e9.chunk.js",
     "static/js/3.6a3373e9.chunk.js.map": "/static/js/3.6a3373e9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.c357a442.chunk.js.LICENSE.txt": "/static/js/2.c357a442.chunk.js.LICENSE.txt",
+    "static/js/2.04528638.chunk.js.LICENSE.txt": "/static/js/2.04528638.chunk.js.LICENSE.txt",
     "static/media/argaze.fb7bce3f.jpg": "/static/media/argaze.fb7bce3f.jpg",
     "static/media/argaze2.eecb2be9.png": "/static/media/argaze2.eecb2be9.png",
     "static/media/bamboo.2bc0fdde.jpg": "/static/media/bamboo.2bc0fdde.jpg",
@@ -28,6 +28,10 @@
     "static/media/inthemaking.b7fd6a6b.png": "/static/media/inthemaking.b7fd6a6b.png",
     "static/media/inthemaking2.a930cc79.png": "/static/media/inthemaking2.a930cc79.png",
     "static/media/loading.ccdf9915.gif": "/static/media/loading.ccdf9915.gif",
+    "static/media/logo-cornell.b60d1552.png": "/static/media/logo-cornell.b60d1552.png",
+    "static/media/logo-nus.203ac757.png": "/static/media/logo-nus.203ac757.png",
+    "static/media/logo-ucla.e6394d80.png": "/static/media/logo-ucla.e6394d80.png",
+    "static/media/logo-zju.b838d026.png": "/static/media/logo-zju.b838d026.png",
     "static/media/logo.103b5fa1.svg": "/static/media/logo.103b5fa1.svg",
     "static/media/material-art.670e8f9c.jpg": "/static/media/material-art.670e8f9c.jpg",
     "static/media/painting1.1e3a0c6c.jpg": "/static/media/painting1.1e3a0c6c.jpg",
@@ -44,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.763b44ac.js",
-    "static/js/2.c357a442.chunk.js",
+    "static/js/2.04528638.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.6b607004.chunk.js"
+    "static/js/main.a5e312a2.chunk.js"
   ]
 }
